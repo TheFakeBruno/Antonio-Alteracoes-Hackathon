@@ -1,0 +1,78 @@
+body {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/Background.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#app {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+#header {
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
+#question {
+  width: auto;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 1%;
+}
+
+#answerGroup {
+  width: auto;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-content: space-between;
+  margin: 1%;
+  cursor: pointer;
+}
+
+#processing {
+  width: auto;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 60px;
+  margin-bottom: 50px;
+}
+
+#solutionGroup {
+  width: auto;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 2%;
+  cursor: pointer;
+}
+
+#button {
+  display: flex;
+  align-self: center;
+  width: 20%;
+  border-radius: 10px;
+  background-color: hsl(330, 72%, 41%);
+  box-shadow: inset 2px 2px 3px rgba(175, 14, 14, 0.075),
+    inset -2px -2px 3px rgba(0, 0, 0, 0.6);
+
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 30px;
+  justify-content: center;
+  cursor: pointer;
+}
